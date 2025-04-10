@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker build -t youface-app . 
+docker run -d -p 5001:5001 youface-app
