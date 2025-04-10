@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker build -t youface-app . 
-docker run -d -p 5001:5001 youface-app
+sudo docker build -t youface-app . && sudo docker run -t -p 5001:5001 youface-app
+#sudo docker ps

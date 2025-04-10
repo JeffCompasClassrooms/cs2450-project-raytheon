@@ -1,6 +1,7 @@
 flask
-tinydb
+markdown
+python-dateutil
+requests
 timeago
-
-markdown2
-hashlib
+tinydb
+bcrypt
